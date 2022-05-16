@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "core-js": "^3.22.5",
+    "nuxt": "^2.15.8",
+    "sass": "^1.51.0",
+    "sass-loader": "^10.2.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.2",
+    "nuxt-highcharts": "^2.0.4"
+  }
+}
