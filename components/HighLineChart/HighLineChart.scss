@@ -4,6 +4,23 @@
   border-radius: 16px;
   background-color: white;
 
+  .highcharts-point {
+    opacity: 0;
+  }
+
+  .highcharts-halo {
+    fill-opacity: 1;
+  }
+
+  .highcharts-tooltip-box {
+    fill: #2A2A2A;
+    stroke: #2A2A2A;
+  }
+
+  .highcharts-label text {
+    fill: #FFFFFF;
+  }
+
   .highcharts-color-0 {
     fill: #ffd54f;
     stroke: #ffd54f;
@@ -17,6 +34,10 @@
   .highcharts-color-2 {
     fill: #ff8a65;
     stroke: #ff8a65;
+  }
+
+  .highcharts-tick {
+    opacity: 0;
   }
 }
 

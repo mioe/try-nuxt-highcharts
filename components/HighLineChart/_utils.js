@@ -76,4 +76,21 @@ export const getAllSeriesForOneType = (points, items, unit) => {
   return result;
 };
 
+export class getLabelForTooltip {
+  #points = []
+  #unit = null
+
+  constructor(points, unit) {
+    this.#points = points
+    this.#unit = unit
+  }
+
+  GET(idx) {
+    const date = dayjs(this.#points[idx])
+    return this.#unit !== UNITS[0]
+      ? date.format('DD.MM.YYYY')
+      : date.format('DD.MM.YYYY HH:mm')
+  }
+}
+
 export default {};

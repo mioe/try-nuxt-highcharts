@@ -6,9 +6,12 @@ export const BASE_OPTIONS = {
   title: false,
   subtitle: false,
   xAxis: {
-    /* computed */
+    labels: {
+      enabled: false,
+    }
   },
   yAxis: {
+    allowDecimals: false,
     title: {
       enabled: false,
     },
@@ -40,6 +43,10 @@ export const BASE_OPTIONS = {
   tooltip: {
     crosshairs: true,
     shared: true,
+    padding: 12,
+    borderRadius: 8,
+    useHTML: true,
+    /* computed */
   },
   credits: {
     enabled: false,
